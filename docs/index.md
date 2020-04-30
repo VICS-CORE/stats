@@ -1,3 +1,7 @@
+---
+layout: default
+title: Blog
+---
 # COVID19 data analysis
 
 ## Has India Peaked Yet?
