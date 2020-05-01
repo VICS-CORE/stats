@@ -41,7 +41,7 @@ The table below shows a comparison of peak dates as per our study and Singapore 
 
 ### Graphs
 
-Following is the list of charts for the countries mentioned above. For each country, there are three timeseries charts that have been plotted. First shows the cumulative number of confirmed cases. Second is the epidemic curve, i.e. frequency of new patients per day. Third denotes the first order derivative of the epidemic curve, i.e. the change in daily cases. It is useful for finding peaks.
+Following is the list of charts for the countries mentioned above. For each country, there are three timeseries charts that have been plotted. First shows the cumulative number of confirmed cases. Second is the epidemic curve, i.e. frequency of new patients per day. Third denotes the first order derivative of the epidemic curve, i.e. the change in daily cases. It is useful for finding peaks, which are denoted by vertical red lines in the second and third chart.
 
 | ![India][in_chart] |
 | ![China][cn_chart] |
