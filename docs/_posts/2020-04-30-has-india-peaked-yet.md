@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Has India Peaked Yet?
-date:   2020-05-01
+date:   2020-04-30
 
 ---
 Recently, Data Driven Innovation lab (DDI) at Singapore University of Technology and Design (SUTD) came out with an [implementation][sutd-paper]{:target="_blank"} of the popular SIR model and tried to predict the COVID-19 peak dates for various countries including India. They predicted that India would peak on **20th April** and 97% of the expected cases would have been identified by May 25th. We were curious to verify these dates and built a methodology to validate these predictions. 

@@ -9,4 +9,6 @@ We're a bunch of volunteers from India, who're analysing covid data to talk abou
 
 You can find the source code for all our work on [GitHub][vics-gh]{:target="_blank"}.
 
+Find us at: `safe pass age india attherate g male do tc om`
+
 [vics-gh]: https://github.com/vics-core/stats
