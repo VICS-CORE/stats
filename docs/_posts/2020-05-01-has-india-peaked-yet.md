@@ -63,19 +63,19 @@ Following is the list of charts for the countries mentioned above. For each coun
 [notebook]: https://github.com/VICS-CORE/stats/blob/master/02_Total_daily_slope.ipynb
 [paper]: https://www.google.com
 
-[in_chart]: /assets/images/02/india.png
-[cn_chart]: /assets/images/02/china.png
-[sk_chart]: /assets/images/02/south_korea.png
-[us_chart]: /assets/images/02/united_states.png
-[br_chart]: /assets/images/02/brazil.png
-[uk_chart]: /assets/images/02/united_kingdom.png
-[it_chart]: /assets/images/02/italy.png
-[es_chart]: /assets/images/02/spain.png
-[de_chart]: /assets/images/02/germany.png
-[fr_chart]: /assets/images/02/france.png
-[pt_chart]: /assets/images/02/portugal.png
-[ae_chart]: /assets/images/02/united_arab_emirates.png
-[sa_chart]: /assets/images/02/saudi_arabia.png
-[pk_chart]: /assets/images/02/pakistan.png
+[in_chart]: ../../../assets/images/02/india.png
+[cn_chart]: ../../../assets/images/02/china.png
+[sk_chart]: ../../../assets/images/02/south_korea.png
+[us_chart]: ../../../assets/images/02/united_states.png
+[br_chart]: ../../../assets/images/02/brazil.png
+[uk_chart]: ../../../assets/images/02/united_kingdom.png
+[it_chart]: ../../../assets/images/02/italy.png
+[es_chart]: ../../../assets/images/02/spain.png
+[de_chart]: ../../../assets/images/02/germany.png
+[fr_chart]: ../../../assets/images/02/france.png
+[pt_chart]: ../../../assets/images/02/portugal.png
+[ae_chart]: ../../../assets/images/02/united_arab_emirates.png
+[sa_chart]: ../../../assets/images/02/saudi_arabia.png
+[pk_chart]: ../../../assets/images/02/pakistan.png
 
-[derivative]: /assets/images/02/derivative.jpg
+[derivative]: ../../../assets/images/02/derivative.jpg
