@@ -44,6 +44,7 @@ header_pages:
     - index.md
     - about.md
 
+google_analytics: UA-165213678-1
 
 # Exclude from processing.
 # The following items will not be processed, by default.

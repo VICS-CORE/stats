@@ -1,11 +1,9 @@
 ---
 layout: page
 permalink: /papers/cpec
+title: Confirming Peak of the Epidemic Curve (CPEC) for COVID-19 pandemic
 
 ---
-
-## Confirming Peak of the Epidemic Curve (CPEC) for COVID-19 pandemic
-
 \- Mayank Bhagya & Radhesh Mohandas
 
 ### Abstract
