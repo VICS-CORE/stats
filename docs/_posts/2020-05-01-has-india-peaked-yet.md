@@ -6,7 +6,7 @@ date:   2020-05-01
 ---
 Recently, Data Driven Innovation lab (DDI) at Singapore University of Technology and Design (SUTD) came out with an [implementation][sutd-paper]{:target="_blank"} of the popular SIR model and tried to predict the COVID-19 peak dates for various countries including India. They predicted that India would peak on 20th April and 97% of the expected cases would have been identified by May 25th. We were curious to verify these dates and built a methodology to validate these predictions. 
 
-Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we find that the predictions are incorrect for most of the countries in the rising half of the epidemic, where new highs are still being reported. The details of our analysis are presented [here][paper]{:target="_blank"} and our calculations and code is available in this [notebook][notebook]{:target="_blank"}.
+Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we find that the predictions are incorrect for most of the countries in the rising half of the epidemic, where new highs are still being reported. The details of our analysis are presented [here][paper] and our calculations and code is available in this [notebook][notebook]{:target="_blank"}.
 
 It is still not confirmed that India has peaked, 10 days after the predicted peak date and the actual date does not appear to be any time soon as per our calculations So it is highly unlikely that 97% of expected cases would end by the forecast date for countries such as India, Pakistan, Saudi Arabia, UAE.. Further we predict that the daily new cases will never become zero as predicted by this paper but will leave behind an asymptote.
 
@@ -61,21 +61,21 @@ Following is the list of charts for the countries mentioned above. For each coun
 
 [sutd-paper]: https://ddi.sutd.edu.sg/when-will-covid-19-end/
 [notebook]: https://github.com/VICS-CORE/stats/blob/master/02_Total_daily_slope.ipynb
-[paper]: https://www.google.com
+[paper]: {{ site.baseurl }}/papers/cpec
 
-[in_chart]: ../../../assets/images/02/india.png
-[cn_chart]: ../../../assets/images/02/china.png
-[sk_chart]: ../../../assets/images/02/south_korea.png
-[us_chart]: ../../../assets/images/02/united_states.png
-[br_chart]: ../../../assets/images/02/brazil.png
-[uk_chart]: ../../../assets/images/02/united_kingdom.png
-[it_chart]: ../../../assets/images/02/italy.png
-[es_chart]: ../../../assets/images/02/spain.png
-[de_chart]: ../../../assets/images/02/germany.png
-[fr_chart]: ../../../assets/images/02/france.png
-[pt_chart]: ../../../assets/images/02/portugal.png
-[ae_chart]: ../../../assets/images/02/united_arab_emirates.png
-[sa_chart]: ../../../assets/images/02/saudi_arabia.png
-[pk_chart]: ../../../assets/images/02/pakistan.png
+[in_chart]: {{ site.baseurl }}/assets/images/02/india.png
+[cn_chart]: {{ site.baseurl }}/assets/images/02/china.png
+[sk_chart]: {{ site.baseurl }}/assets/images/02/south_korea.png
+[us_chart]: {{ site.baseurl }}/assets/images/02/united_states.png
+[br_chart]: {{ site.baseurl }}/assets/images/02/brazil.png
+[uk_chart]: {{ site.baseurl }}/assets/images/02/united_kingdom.png
+[it_chart]: {{ site.baseurl }}/assets/images/02/italy.png
+[es_chart]: {{ site.baseurl }}/assets/images/02/spain.png
+[de_chart]: {{ site.baseurl }}/assets/images/02/germany.png
+[fr_chart]: {{ site.baseurl }}/assets/images/02/france.png
+[pt_chart]: {{ site.baseurl }}/assets/images/02/portugal.png
+[ae_chart]: {{ site.baseurl }}/assets/images/02/united_arab_emirates.png
+[sa_chart]: {{ site.baseurl }}/assets/images/02/saudi_arabia.png
+[pk_chart]: {{ site.baseurl }}/assets/images/02/pakistan.png
 
-[derivative]: ../../../assets/images/02/derivative.jpg
+[derivative]: {{ site.baseurl }}/assets/images/02/derivative.jpg
