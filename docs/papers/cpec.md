@@ -8,7 +8,7 @@ title: Confirming Peak of the Epidemic Curve (CPEC) for COVID-19 pandemic
 
 ### Abstract
 
-Various models are being proposed to predict the peak dates of the Covid-19 Pandemic. It is difficult to propose a suitable model as it is difficult to collect data standardised and accurately across international borders during this emergency. So we built a methodology to verify these predictions independently. Responsive actions from various governments and the social behaviour of it's citizens also changes the course of the disease spread in a big way and these predictions have to be progressively adapted from real data. 
+Various models are being proposed to predict the peak dates of the Covid-19 Pandemic. It is difficult to propose a suitable model as it is difficult to collect data standardised and accurately across international borders inmidst of this emergency. There is a need to verify the events predicted by these models to understand their veracity. So we built a methodology to verify these predictions independently. Responsive actions from various governments and the social behaviour of it's citizens also changes the course of the disease spread in a big way and these predictions have to be progressively adapted from real data. For India, where there was swift action from the administration, the epidemic is under check but given the size and diversity of the population it is very difficult to predict the disease progression. Our work concludes that no predicted peak date for India has come true.
 
 
 ### Introduction
