@@ -10,14 +10,6 @@ Our method has a limitation that it can confirm the peak only 3 days after the a
 
 It is still not confirmed that India has peaked, 10 days after the predicted peak date and the actual date does not appear to be any time soon as per our calculations. So it is highly unlikely that 97% of expected cases would end by the forecast date for countries such as India, Pakistan, Saudi Arabia, UAE.. Further we predict that the daily new cases will never become zero as predicted by this paper but will leave behind an asymptote.
 
-### Logic
-
-We use basic calculus to identify the peak. A peak on the daily epidemic curve (i.e. new patients per day) is a maximum. To identify maxima and minima on a curve, we use the fact that first order derivative becomes zero at that point. So we calculate change in daily cases which denotes the `slope` of the curve and identify dates where this curve becomes 0. Each point is a potential peak. 
-
-However, we find multiple such points since the derivative becomes 0 whenever the curve is parallel to x-axis. To further verify that it is a true peak, we cross examine the second order derivative. At maximums, the second derivative, i.e. `change in slope`, should be negative because the slope changes from positive to negative at a peak.
-
-![Derivative Diagram][derivative]
-
 ### Peak dates
 
 The table below shows a comparison of peak dates as per our study and Singapore University's study.
@@ -38,6 +30,15 @@ The table below shows a comparison of peak dates as per our study and Singapore 
 | United Arab Emirates | Peak not hit | 27 Apr |
 | Saudi Arabia | Peak not hit | 27 Apr |
 | Pakistan | Peak not hit | 27 Apr |
+
+### Logic
+
+We use basic calculus to identify the peak. A peak on the daily epidemic curve (i.e. new patients per day) is a maximum. To identify maxima and minima on a curve, we use the fact that first order derivative becomes zero at that point. So we calculate change in daily cases which denotes the `slope` of the curve and identify dates where this curve becomes 0. Each point is a potential peak. 
+
+However, we find multiple such points since the derivative becomes 0 whenever the curve is parallel to x-axis. To further verify that it is a true peak, we cross examine the second order derivative. At maximums, the second derivative, i.e. `change in slope`, should be negative because the slope changes from positive to negative at a peak.
+
+![Derivative Diagram][derivative]
+
 
 ### Graphs
 
