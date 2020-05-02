@@ -50,7 +50,7 @@ While ideally the epidemic curve should resemble a bell shape, real data plots c
 
 ### Results
 
-## Peak dates
+#### Peak dates
 
 The table below shows a comparison of peak dates as per our study and Singapore University's study.
 
@@ -71,7 +71,7 @@ The table below shows a comparison of peak dates as per our study and Singapore 
 | Saudi Arabia | Peak not hit | 27 Apr |
 | Pakistan | Peak not hit | 27 Apr |
 
-## Graphs
+#### Graphs
 
 Following is the list of charts for the countries mentioned above. For each country, there are three timeseries charts that have been plotted. First shows the cumulative number of confirmed cases. Second is the epidemic curve, i.e. frequency of new patients per day. Third denotes the first order derivative of the epidemic curve, i.e. the change in daily cases. It is useful for finding peaks, which are denoted by vertical red lines in the second and third chart.
 
@@ -90,19 +90,16 @@ Following is the list of charts for the countries mentioned above. For each coun
 | ![Saudi Arabia][sa_chart] |
 | ![Pakistan][pk_chart] |
 
-
-
-
-
 ### Conclusion
 
 We find that the dates predicted by UW are correct and may have an offset of a day or two for the reasons stated above. The dates predicted by SUTD are also verified for the countries that have clearly passed the peak. But for the countries which are still in the rising half of the epidemic, the dates predicted are incorrect in most of the cases.
 
-[sutd_paper]: https://www.altaveu.com/documents/covid19predictionpaper20200426.pdf
-[uw_paper]: https://covid19.healthdata.org/
-
 ### References
 
+
+
+[sutd_paper]: https://www.altaveu.com/documents/covid19predictionpaper20200426.pdf
+[uw_paper]: https://covid19.healthdata.org/
 
 [in_chart]: {{ site.baseurl }}/assets/images/02/india.png
 [cn_chart]: {{ site.baseurl }}/assets/images/02/china.png
