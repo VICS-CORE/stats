@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: COVID19 data analysis
+title: COVID-19 Data Analysis
 description: >- # this means to ignore newlines until "baseurl:"
-  We're a bunch of volunteers from India who're analysing covid data to talk about things that we believe are important.
+  We're a bunch of volunteers from India who are analysing covid data to talk about things that we believe are important.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://indiacovid.seva.ml/" # the base hostname & protocol for your site, e.g. http://example.com
