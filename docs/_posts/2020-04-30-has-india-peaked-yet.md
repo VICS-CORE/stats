@@ -4,15 +4,15 @@ title: Has India Peaked Yet?
 date:   2020-04-30
 
 ---
-Recently, Data Driven Innovation lab (DDI) at Singapore University of Technology and Design (SUTD) came out with an [implementation][sutd_website]{:target="_blank"} of the popular SIR model and tried to predict the COVID-19 peak dates for various countries including India. They predicted that India would peak on **20th April** and 97% of the expected cases would have been identified by May 25th. We were curious to verify these dates and built a methodology to validate these predictions. 
+On 26th April, Data Driven Innovation lab (DDI) at Singapore University of Technology and Design (SUTD) came out with an [implementation][sutd_website]{:target="_blank"} of the popular SIR model and tried to predict the COVID-19 peak dates for various countries including India. They predicted that India had already peaked on **20th April** and 97% of the expected cases would have been recovered by May 25th. We were curious to verify these dates and built a methodology to validate these predictions. 
 
-Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we find that the predictions are incorrect for most of the countries that are still in the rising half of the epidemic, where new highs are still being reported. The details of our analysis are presented [here][paper] and our calculations and code is available in this [notebook][notebook]{:target="_blank"}.
+Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we found that the predictions are incorrect for most of the countries that are still in the rising half of the epidemic, where new highs are still being reported. The details of our analysis are presented [here][paper] and our calculations and code is available in this [notebook][notebook]{:target="_blank"}. The Author has used the popular SIR model but the inputs to the model have to be given with due understanding of the underlying dynamics of the population to get a good prediction.
 
-It is still not confirmed that India has peaked, 10 days after the predicted peak date and the actual date does not appear to be any time soon as per our calculations. So it is highly unlikely that 97% of expected cases would end by the forecast date for countries such as India, Pakistan, Saudi Arabia, UAE.. Further we predict that the daily new cases will never become zero as predicted by this paper but will leave behind an asymptote.
+It is still not confirmed that India has peaked. The actual date does not appear to be any time soon as per our calculations. So it is highly unlikely that 97% of expected cases would end by the forecast date for countries such as India, Pakistan, Saudi Arabia, UAE.. Further we predict that the daily new cases will never become zero as predicted by this paper but will leave behind an asymptote.
 
 ### Results
 
-Last Updated: May 5, 2020
+Last Updated: May 5, 2020. We plan to update these results every few days. So please checkback for any changes.
 
 ![India][in_chart]
 
@@ -37,7 +37,7 @@ Country | SUTD | Our verification
 [United Arab Emirates](#UAE)|Apr 17|not peaked
 
 <a name="table2"></a>
-This table shows countries that have already hit the peak number of infections in a day:
+This table shows countries that have already hit the peak number of new infections in a day:
 
 Country | SUTD | Our verification
  --- | --- | ---
@@ -78,7 +78,7 @@ However, we find multiple such points since the derivative becomes 0 whenever th
 
 ### Graphs
 
-Following is the list of charts for the countries mentioned above. For each country, there are three timeseries charts that have been plotted. First is the percentile epidemic curve, i.e. percentile of frequency of new patients per day. Second denotes the first order derivative of the epidemic curve, i.e. the change in daily cases. It is useful for finding peaks, which are denoted by vertical red lines in the first and second chart.
+Following is the list of charts for the countries mentioned above. For each country, there are two timeseries charts that have been plotted. First is the percentile epidemic curve, i.e. percentile of frequency of new patients per day. Second denotes the first order derivative of the epidemic curve, i.e. the change in daily cases. It is useful for finding peaks, which are marked by the vertical blue lines in the charts.
 
 | |
 |:---:|
