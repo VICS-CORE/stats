@@ -16,47 +16,56 @@ Last Updated: May 5, 2020
 
 ![India][in_chart]
 
-The table below shows a comparison of peak dates as per [Singapore University's paper][sutd_paper] and our study.
+Here is a comparison of peak dates as per [Singapore University's paper][sutd_paper] and our study.
+
+<a name="table"></a>
+The following table shows a list of countries which haven't hit the peak yet:
 
 Country | SUTD | Our verification
  --- | --- | ---
+[Afghanistan](#Afghanistan)|Apr 29|not peaked
+[Bangladesh](#Bangladesh)|Apr 23|not peaked
+[Brazil](#Brazil)|Apr 21|not peaked
+[Chile](#Chile)|Apr 16|not peaked
 [India](#India)|Apr 20|not peaked
-[United Arab Emirates](#UAE)|Apr 17|not peaked
-[Russia](#Russia)|Apr 24|not peaked
-[Peru](#Peru)|Apr 18|not peaked
+[Indonesia](#Indonesia)|Apr 20|not peaked
 [Mexico](#Mexico)|May 01|not peaked
 [Pakistan](#Pakistan)|Apr 27|not peaked
-[Bangladesh](#Bangladesh)|Apr 23|not peaked
-[Chile](#Chile)|Apr 16|not peaked
+[Peru](#Peru)|Apr 18|not peaked
+[Russia](#Russia)|Apr 24|not peaked
 [Saudi Arabia](#SA)|Apr 27|not peaked
-[Brazil](#Brazil)|Apr 21|not peaked
-[Afghanistan](#Afghanistan)|Apr 29|not peaked
-[Indonesia](#Indonesia)|Apr 20|not peaked
-[China](#China)|Feb 08|Feb 13
-[South Korea](#SK)|Mar 02|Mar 03
-[United States](#US)|Apr 10|Apr 10
-[United Kingdom](#UK)|Apr 12|Apr 15
-[Italy](#Italy)|Mar 29|Mar 26
-[Spain](#Spain)|Apr 02|Apr 01
-[Germany](#Germany)|Apr 01|Apr 03
-[France](#France)|Apr 03|Apr 02
-[Portugal](#Portugal)|Apr 06|Apr 04
+[United Arab Emirates](#UAE)|Apr 17|not peaked
+
+<a name="table2"></a>
+This table shows countries that have already hit the peak number of infections in a day:
+
+Country | SUTD | Our verification
+ --- | --- | ---
 [Australia](#Australia)|Mar 27|Mar 28
 [Austria](#Austria)|Mar 26|Mar 28
+[China](#China)|Feb 08|Feb 13
 [Denmark](#Denmark)|Apr 06|Apr 07
 [Finland](#Finland)|Apr 11|Apr 09
+[France](#France)|Apr 03|Apr 02
+[Germany](#Germany)|Apr 01|Apr 03
 [Greece](#Greece)|Mar 30|Apr 02
 [Hungary](#Hungary)|Apr 15|Apr 12
 [Iran](#Iran)|Apr 01|Apr 02
 [Iraq](#Iraq)|Apr 04|Apr 08
 [Israel](#Israel)|Apr 04|Apr 04
+[Italy](#Italy)|Mar 29|Mar 26
 [Malaysia](#Malaysia)|Mar 31|Apr 04
 [Netherlands](#Netherlands)|Apr 08|Apr 12
 [Norway](#Norway)|Mar 27|Mar 29
 [Philippines](#Philippines)|Apr 07|Apr 03
+[Portugal](#Portugal)|Apr 06|Apr 04
+[South Korea](#SK)|Mar 02|Mar 03
+[Spain](#Spain)|Apr 02|Apr 01
 [Sweden](#Sweden)|Apr 20|Apr 25
 [Switzerland](#Switzerland)|Mar 29|Mar 30
 [Thailand](#Thailand)|Mar 28|Apr 01
+[United Kingdom](#UK)|Apr 12|Apr 15
+[United States](#US)|Apr 10|Apr 10
 
 ### Logic
 
@@ -73,43 +82,43 @@ Following is the list of charts for the countries mentioned above. For each coun
 
 | |
 |:---:|
-| <a name="India"></a><br /> ![India][in_chart] |
-| <a name="UAE"></a><br /> ![United Arab Emirates][ae_chart] |
-| <a name="Russia"></a><br /> ![Russia][ru_chart] |
-| <a name="Peru"></a><br /> ![Peru][pe_chart] |
-| <a name="Mexico"></a><br /> ![Mexico][mx_chart] |
-| <a name="Pakistan"></a><br /> ![Pakistan][pk_chart] |
-| <a name="Bangladesh"></a><br /> ![Bangladesh][bd_chart] |
-| <a name="Chile"></a><br /> ![Chile][cl_chart] |
-| <a name="SA"></a><br /> ![Saudi Arabia][sa_chart] |
-| <a name="Brazil"></a><br /> ![Brazil][br_chart] |
-| <a name="Afghanistan"></a><br /> ![Afghanistan][af_chart] |
-| <a name="Indonesia"></a><br /> ![Indonesia][id_chart] |
-| <a name="China"></a><br /> ![China][cn_chart] |
-| <a name="SK"></a><br /> ![South Korea][sk_chart] |
-| <a name="US"></a><br /> ![United States][us_chart] |
-| <a name="UK"></a><br /> ![United Kingdom][uk_chart] |
-| <a name="Italy"></a><br /> ![Italy][it_chart] |
-| <a name="Spain"></a><br /> ![Spain][es_chart] |
-| <a name="Germany"></a><br /> ![Germany][de_chart] |
-| <a name="France"></a><br /> ![France][fr_chart] |
-| <a name="Portugal"></a><br /> ![Portugal][pt_chart] |
-| <a name="Australia"></a><br /> ![Australia][au_chart] |
-| <a name="Austria"></a><br /> ![Austria][at_chart] |
-| <a name="Denmark"></a><br /> ![Denmark][dk_chart] |
-| <a name="Finland"></a><br /> ![Finland][fi_chart] |
-| <a name="Greece"></a><br /> ![Greece][gr_chart] |
-| <a name="Hungary"></a><br /> ![Hungary][hu_chart] |
-| <a name="Iran"></a><br /> ![Iran][ir_chart] |
-| <a name="Iraq"></a><br /> ![Iraq][iq_chart] |
-| <a name="Israel"></a><br /> ![Israel][il_chart] |
-| <a name="Malaysia"></a><br /> ![Malaysia][my_chart] |
-| <a name="Netherlands"></a><br /> ![Netherlands][nl_chart] |
-| <a name="Norway"></a><br /> ![Norway][no_chart] |
-| <a name="Philippines"></a><br /> ![Philippines][ph_chart] |
-| <a name="Sweden"></a><br /> ![Sweden][se_chart] |
-| <a name="Switzerland"></a><br /> ![Switzerland][ch_chart] |
-| <a name="Thailand"></a><br /> ![Thailand][th_chart] |
+| <a name="India"></a><br /> ![India][in_chart] <br />[Back](#table)|
+| <a name="UAE"></a><br /> ![United Arab Emirates][ae_chart] <br />[Back](#table) |
+| <a name="Russia"></a><br /> ![Russia][ru_chart] <br />[Back](#table) |
+| <a name="Peru"></a><br /> ![Peru][pe_chart] <br />[Back](#table) |
+| <a name="Mexico"></a><br /> ![Mexico][mx_chart] <br />[Back](#table) |
+| <a name="Pakistan"></a><br /> ![Pakistan][pk_chart] <br />[Back](#table) |
+| <a name="Bangladesh"></a><br /> ![Bangladesh][bd_chart] <br />[Back](#table) |
+| <a name="Chile"></a><br /> ![Chile][cl_chart] <br />[Back](#table) |
+| <a name="SA"></a><br /> ![Saudi Arabia][sa_chart] <br />[Back](#table) |
+| <a name="Brazil"></a><br /> ![Brazil][br_chart] <br />[Back](#table) |
+| <a name="Afghanistan"></a><br /> ![Afghanistan][af_chart] <br />[Back](#table) |
+| <a name="Indonesia"></a><br /> ![Indonesia][id_chart] <br />[Back](#table) |
+| <a name="China"></a><br /> ![China][cn_chart] <br />[Back](#table2) |
+| <a name="SK"></a><br /> ![South Korea][sk_chart] <br />[Back](#table2) |
+| <a name="US"></a><br /> ![United States][us_chart] <br />[Back](#table2) |
+| <a name="UK"></a><br /> ![United Kingdom][uk_chart] <br />[Back](#table2) |
+| <a name="Italy"></a><br /> ![Italy][it_chart] <br />[Back](#table2) |
+| <a name="Spain"></a><br /> ![Spain][es_chart] <br />[Back](#table2) |
+| <a name="Germany"></a><br /> ![Germany][de_chart] <br />[Back](#table2) |
+| <a name="France"></a><br /> ![France][fr_chart] <br />[Back](#table2) |
+| <a name="Portugal"></a><br /> ![Portugal][pt_chart] <br />[Back](#table2) |
+| <a name="Australia"></a><br /> ![Australia][au_chart] <br />[Back](#table2) |
+| <a name="Austria"></a><br /> ![Austria][at_chart] <br />[Back](#table2) |
+| <a name="Denmark"></a><br /> ![Denmark][dk_chart] <br />[Back](#table2) |
+| <a name="Finland"></a><br /> ![Finland][fi_chart] <br />[Back](#table2) |
+| <a name="Greece"></a><br /> ![Greece][gr_chart] <br />[Back](#table2) |
+| <a name="Hungary"></a><br /> ![Hungary][hu_chart] <br />[Back](#table2) |
+| <a name="Iran"></a><br /> ![Iran][ir_chart] <br />[Back](#table2) |
+| <a name="Iraq"></a><br /> ![Iraq][iq_chart] <br />[Back](#table2) |
+| <a name="Israel"></a><br /> ![Israel][il_chart] <br />[Back](#table2) |
+| <a name="Malaysia"></a><br /> ![Malaysia][my_chart] <br />[Back](#table2) |
+| <a name="Netherlands"></a><br /> ![Netherlands][nl_chart] <br />[Back](#table2) |
+| <a name="Norway"></a><br /> ![Norway][no_chart] <br />[Back](#table2) |
+| <a name="Philippines"></a><br /> ![Philippines][ph_chart] <br />[Back](#table2) |
+| <a name="Sweden"></a><br /> ![Sweden][se_chart] <br />[Back](#table2) |
+| <a name="Switzerland"></a><br /> ![Switzerland][ch_chart] <br />[Back](#table2) |
+| <a name="Thailand"></a><br /> ![Thailand][th_chart] <br />[Back](#table2) |
 
 [sutd_paper]: https://www.altaveu.com/documents/covid19predictionpaper20200426.pdf
 [sutd_website]: https://ddi.sutd.edu.sg/when-will-covid-19-end/
