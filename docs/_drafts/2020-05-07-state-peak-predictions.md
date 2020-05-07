@@ -4,9 +4,9 @@ title: Has any state in India won over Corona yet?
 date:   2020-04-30
 
 ---
-This is a question that every curious Indian wants to know. Though we don't have a prediction model we developed a methodology to verify the peaks by looking at the actual data. India is a vast country and the dynamics of the country can not be easily modelled by the simple SIR model which worked well for most smaller countries. The daily graph is a superimposition of many curves that describe the dynamics of its various parts that make up India. The states, metros and bigger cities have their own dynamics and have to be modelled with an enhanced SIR model or one of it's variants. 
+This is a question that every curious Indian wants to know. Apart from the political claims which we consider to be just noise, is there a scientific way to actually confirm this?  A peak date is when the epidemic growth is at the maximum and after that the disease starts to subside. Hence it is of interest to know if a country or state has peaked. Scientists use a popular model called SIR to predict how epidemics such as COVID-19 are spreading. The simple SIR model has a few variants all which work well for a small homogeneous populations. India is a vast country and the dynamics of the disease spread in the country can not be acurately predicted by a simple SIR model. The daily graph is a superimposition of many curves that describe the dynamics of its various parts that make up India. The states, metros and bigger cities have their own dynamics and each have to be modelled seperately. We have started working on the mathematics to develop a generalized wave model to take care of the aggregate dynamics of a complex country such as India. Though we don't have a prediction model ready yet we have developed a methodology to verify the peaks by examining the actual data. 
 
-Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we found that it seems like some of the states have peaked. However it is true early to say this as secondary waves can be started as the movement of people starts between places. If the containment does succeed then we can consider that some of the states have peaked. We have considered Mumbai district as a run away case which interefers with the actual growth of the disease for Maharastra or even the whole nation. The peaks are tentative and will be rendered a false positive when a new peak is formed.  This iterative process will continue till a sizeable portion of the population gets infected. Since the administration has enforced severe lockdown measures, a free run for the epidemic as per the SIR model will not happen and we are much early in the growth state. The details of our analysis are presented [here][paper] and our calculations and code is available in this [notebook][notebook]{:target="_blank"}. 
+Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we found that it seems like some of the states have peaked. However it is too early to say this with confidence as secondary waves can be started as the movement of people starts between places. If the containment does succeed then we can consider that some of the states have peaked. We have considered Mumbai district as a run away case which interferes with the actual analysis of the disease for Maharastra or even the whole nation. The peaks predicted are tentative and will be rendered as a false positives if and when a new peak is formed.  This iterative process will continue till a sizeable portion of the population under consideration gets infected. Since the administration has enforced severe lockdown measures, a free run for the epidemic as per the SIR model will not happen and we are much early in the growth state. The logic for our analysis was presented in our earlier article [hasindiapeaked]  and our calculations and code is available in this [notebook][notebook]{:target="_blank"}. 
 
 
 ### Results
@@ -16,7 +16,7 @@ Last Updated: May 5, 2020. We plan to update these results every few days. So pl
 ![India][in_chart]
 
 <a name="table"></a>
-The following table shows a list of states which seem to have hit the peak yet:
+The following table shows a list of states which seem to have hit the peak tentatively:
 
 Country | SUTD | Our verification
  --- | --- | ---
@@ -35,6 +35,7 @@ Country | SUTD | Our verification
 
 <a name="table2"></a>
 This table shows states that have not yet peaked
+
 Country | SUTD | Our verification
  --- | --- | ---
 [Australia](#Australia)|Mar 27|Mar 28
@@ -63,18 +64,11 @@ Country | SUTD | Our verification
 [United Kingdom](#UK)|Apr 12|Apr 15
 [United States](#US)|Apr 10|Apr 10
 
-### Logic
-
-We use basic calculus to identify the peak. A peak on the daily epidemic curve (i.e. new patients per day) is a maximum. To identify maxima and minima on a curve, we use the fact that first order derivative becomes zero at that point. So we calculate change in daily cases which denotes the `slope` of the curve and identify dates where this curve becomes 0. Each point is a potential peak. 
-
-However, we find multiple such points since the derivative becomes 0 whenever the curve is parallel to x-axis. To further verify that it is a true peak, we cross examine the second order derivative. At maximums, the second derivative, i.e. `change in slope`, should be negative because the slope changes from positive to negative at a peak.
-
-![Derivative Diagram][derivative]
 
 
 ### Graphs
 
-Following is the list of charts for the states mentioned above. For each states, there are two timeseries charts that have been plotted. First is the percentile epidemic curve, i.e. percentile of frequency of new patients per day. Second denotes the first order derivative of the epidemic curve, i.e. the change in daily cases. It is useful for finding peaks, which are marked by the vertical blue lines in the charts.
+Following is the list of charts for the states mentioned above. For each states, there are two timeseries charts that have been plotted. The first is the percentile epidemic curve, i.e. percentile of frequency of new patients per day. The second denotes the first order derivative of the epidemic curve, i.e. the change in daily cases. It is useful for finding peaks, which are marked by the vertical blue lines in the charts.
 
 | |
 |:---:|
