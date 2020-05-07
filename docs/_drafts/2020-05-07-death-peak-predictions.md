@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Verification of the Peak Death dates by University of Washington?
+title: Verification of the Peak Death dates by University of Washington
 date:   2020-04-30
 
 ---
-University of Washington through it's website healthdata[hd_website]. has been publishing its predicted COVID-19 peak death dates for select American and European Countries. The death curve is calculated on the daily reported deaths and it should lag the curve of infections reported by reason. We were curious to verify these dates and built a methodology to validate these predictions.  We found that the average lag between the two curves is around 5 days.
 
-Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we found that the predictions turned out to be correct for most of the countries.  The details of our analysis are presented [here][paper] and our calculations and code is available in this [notebook][notebook]{:target="_blank"}. 
+A peak date is when the epidemic growth is at the maximum and after that the disease starts to subside. Hence it is of interest to know if a country or state has peaked. Scientists use a popular model called SIR to predict how epidemics such as COVID-19 are spreading. The results of the prediction vary based on assumptions made to feed appropirate inputs to the model. Hence we found that there was a need to independently verify these predictions looking at the actual data recorded over time.
+
+University of Washington through it's website healthdata[hd_website], has been publishing its predicted COVID-19 peak death dates for select American and European Countries. The death curve is calculated on the daily reported deaths and it should lag the curve of infections reported by reason. We were curious to verify these dates and built a methodology to validate these predictions.  We found that the average lag between the two curves is around 5 days. The choice of countries choosen for their study is disappointing and does not include many countries that have not yet peaked. We have discared some small countries who fall below our threshold to make the predictions more meaningful.
 
 ### Results
 
@@ -16,10 +17,12 @@ Last Updated: May 5, 2020. We plan to update these results every few days. So pl
 
 Here is a comparison of peak dates as per University of Washington and our study.
 
+#This table has to be the link preview in FB
+
 <a name="table2"></a>
 This table shows countries that have already hit the peak number of new infections in a day:
 
-Country | SUTD | Our verification
+Country | SUTD | Our verification ¦ difference (in days)
  --- | --- | ---
 [Australia](#Australia)|Mar 27|Mar 28
 [Austria](#Austria)|Mar 26|Mar 28
@@ -48,13 +51,7 @@ Country | SUTD | Our verification
 [United States](#US)|Apr 10|Apr 10
 
 ### Logic
-
-We use basic calculus to identify the peak. A peak on the daily epidemic curve (i.e. new patients per day) is a maximum. To identify maxima and minima on a curve, we use the fact that first order derivative becomes zero at that point. So we calculate change in daily cases which denotes the `slope` of the curve and identify dates where this curve becomes 0. Each point is a potential peak. 
-
-However, we find multiple such points since the derivative becomes 0 whenever the curve is parallel to x-axis. To further verify that it is a true peak, we cross examine the second order derivative. At maximums, the second derivative, i.e. `change in slope`, should be negative because the slope changes from positive to negative at a peak.
-
-![Derivative Diagram][derivative]
-
+The logic for this article has been mentioned in our previous article [hasindiapeaked]
 
 ### Graphs
 
