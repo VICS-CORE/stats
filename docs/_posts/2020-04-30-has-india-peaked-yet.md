@@ -12,7 +12,7 @@ It is still not confirmed that India has peaked. The actual date does not appear
 
 ### Results
 
-Last Updated: May 5, 2020. We plan to update these results every few days. So please checkback for any changes.
+Last Updated: May 5, 2020. We plan to update these results every few days. So please check back for any changes.
 
 ![India][in_chart]
 
@@ -122,7 +122,7 @@ Following is the list of charts for the countries mentioned above. For each coun
 
 [sutd_paper]: https://www.altaveu.com/documents/covid19predictionpaper20200426.pdf
 [sutd_website]: https://ddi.sutd.edu.sg/when-will-covid-19-end/
-[notebook]: https://github.com/VICS-CORE/stats/blob/master/02_Total_daily_slope.ipynb
+[notebook]: https://github.com/VICS-CORE/stats/blob/master/02_Peak_calculator.ipynb
 [paper]: {{ site.baseurl }}/papers/cpec
 
 [in_chart]: {{ site.baseurl }}/assets/images/02/india.png
