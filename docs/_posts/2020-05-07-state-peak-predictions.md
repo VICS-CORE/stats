@@ -69,19 +69,19 @@ Following is the list of charts for the states mentioned above. For each states,
 | <a name="mp"></a><br /> ![Madhya Pradesh][mp_chart] <br />[Back](#table) |
 | <a name="tg"></a><br /> ![Telangana][tg_chart] <br />[Back](#table) |
 | <a name="uk"></a><br /> ![Uttarakhand][uk_chart] <br />[Back](#table) |
-| <a name="cg"></a><br /> ![Chhattisgarh][cg_chart] <br />[Back](#table) |
-| <a name="dl"></a><br /> ![Delhi][dl_chart] <br />[Back](#table) |
+| <a name="cg"></a><br /> ![Chhattisgarh][cg_chart] <br />[Back](#table2) |
+| <a name="dl"></a><br /> ![Delhi][dl_chart] <br />[Back](#table2) |
 | <a name="gj"></a><br /> ![Gujarat][gj_chart] <br />[Back](#table2) |
-| <a name="hr"></a><br /> ![Harayana][hr_chart] <br />[Back](#table) |
-| <a name="jk"></a><br /> ![Jammu & Kashmir][jk_chart] <br />[Back](#table) |
-| <a name="mh"></a><br /> ![Maharashtra*][mh_chart] <br />[Back](#table) |
+| <a name="hr"></a><br /> ![Harayana][hr_chart] <br />[Back](#table2) |
+| <a name="jk"></a><br /> ![Jammu & Kashmir][jk_chart] <br />[Back](#table2) |
+| <a name="mh"></a><br /> ![Maharashtra*][mh_chart] <br />[Back](#table2) |
 | <a name="mu"></a><br /> ![Mumbai*][mu_chart] <br />[Back](#table2) |
-| <a name="od"></a><br /> ![Odisha][od_chart] <br />[Back](#table) |
-| <a name="pb"></a><br /> ![Punjab][pb_chart] <br />[Back](#table) |
-| <a name="rj"></a><br /> ![Rajasthan][rj_chart] <br />[Back](#table) |
-| <a name="tn"></a><br /> ![Tamil Nadu][tn_chart] <br />[Back](#table) |
+| <a name="od"></a><br /> ![Odisha][od_chart] <br />[Back](#table2) |
+| <a name="pb"></a><br /> ![Punjab][pb_chart] <br />[Back](#table2) |
+| <a name="rj"></a><br /> ![Rajasthan][rj_chart] <br />[Back](#table2) |
+| <a name="tn"></a><br /> ![Tamil Nadu][tn_chart] <br />[Back](#table2) |
 | <a name="tp"></a><br /> ![Tripura][tp_chart] <br />[Back](#table2) |
-| <a name="up"></a><br /> ![Uttar Pradesh][up_chart] <br />[Back](#table) |
+| <a name="up"></a><br /> ![Uttar Pradesh][up_chart] <br />[Back](#table2) |
 | <a name="wb"></a><br /> ![West Bengal][wb_chart] <br />[Back](#table2) |
 
 
