@@ -46,7 +46,7 @@ Country | University of Washington | Our study (deaths) | Our study (new infecti
 [Croatia](#croatia)|Apr 19|not yet peaked|Mar 31|-
 
 ### Logic
-The logic for this article has been mentioned in [our previous article][hasindiapeaked].
+The logic for this article has been mentioned in [our previous article][has_india_peaked].
 
 ### Graphs
 
