@@ -2,6 +2,7 @@
 layout: post
 title: Has any state in India won over Corona yet?
 date:   2020-05-07
+comments: true
 
 ---
 This is a question that every curious Indian wants to know. Apart from the political claims which we consider to be just noise, is there a scientific way to actually confirm this?  
