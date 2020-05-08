@@ -24,21 +24,11 @@ State | Peak date
 [Assam](#as)|Apr 04
 [Bihar](#bi)|Apr 28
 [Chandigarh](#ch)|May 04
-[Chhattisgarh](#cg)|Apr 16
-[Delhi](#dl)|Apr 14
-[Harayana](#hr)|Apr 07
-[Jammu & Kashmir](#jk)|Apr 12
 [Jharkhand](#jh)|Apr 27
 [Karnataka](#kt)|Apr 18
 [Kerala](#kl)|Mar 29
 [Madhya Pradesh](#mp)|Apr 28
-[Maharashtra](#mh)|Apr 25
-[Odisha](#od)|Apr 06
-[Punjab](#pb)|Apr 10
-[Rajasthan](#rj)|Apr 21
-[Tamil Nadu](#tn)|Apr 07
 [Telangana](#tg)|Apr 06
-[Uttar Pradesh](#up)|Apr 24
 [Uttarakhand](#uk)|Apr 06
 
 <a name="table2"></a>
@@ -46,11 +36,22 @@ This table shows states that have not yet peaked:
 
 | State |
 | --- |
+| [Chhattisgarh](#cg) |
+| [Delhi](#dl) |
 | [Gujarat](#gj) |
-| [Mumbai](#mu) |
+| [Harayana](#hr) |
+| [Jammu & Kashmir](#jk) |
+| [Maharashtra*](#mh) |
+| [Mumbai*](#mu) |
+| [Odisha](#od) |
+| [Punjab](#pb) |
+| [Rajasthan](#rj)|
+| [Tamil Nadu](#tn) |
 | [Tripura](#tp) |
+| [Uttar Pradesh](#up) |
 | [West Bengal](#wb) |
 
+*Mumbai has been considered separate from Maharashtra for drawing a clearer picture.
 
 ### Graphs
 
@@ -62,25 +63,25 @@ Following is the list of charts for the states mentioned above. For each states,
 | <a name="as"></a><br /> ![Assam][as_chart] <br />[Back](#table) |
 | <a name="bi"></a><br /> ![Bihar][bi_chart] <br />[Back](#table) |
 | <a name="ch"></a><br /> ![Chandigarh][ch_chart] <br />[Back](#table) |
-| <a name="cg"></a><br /> ![Chhattisgarh][cg_chart] <br />[Back](#table) |
-| <a name="dl"></a><br /> ![Delhi][dl_chart] <br />[Back](#table) |
-| <a name="hr"></a><br /> ![Harayana][hr_chart] <br />[Back](#table) |
-| <a name="jk"></a><br /> ![Jammu & Kashmir][jk_chart] <br />[Back](#table) |
 | <a name="jh"></a><br /> ![Jharkhand][jh_chart] <br />[Back](#table) |
 | <a name="kt"></a><br /> ![Karnataka][kt_chart] <br />[Back](#table) |
 | <a name="kl"></a><br /> ![Kerala][kl_chart] <br />[Back](#table) |
 | <a name="mp"></a><br /> ![Madhya Pradesh][mp_chart] <br />[Back](#table) |
+| <a name="tg"></a><br /> ![Telangana][tg_chart] <br />[Back](#table) |
+| <a name="uk"></a><br /> ![Uttarakhand][uk_chart] <br />[Back](#table) |
+| <a name="cg"></a><br /> ![Chhattisgarh][cg_chart] <br />[Back](#table) |
+| <a name="dl"></a><br /> ![Delhi][dl_chart] <br />[Back](#table) |
+| <a name="gj"></a><br /> ![Gujarat][gj_chart] <br />[Back](#table2) |
+| <a name="hr"></a><br /> ![Harayana][hr_chart] <br />[Back](#table) |
+| <a name="jk"></a><br /> ![Jammu & Kashmir][jk_chart] <br />[Back](#table) |
 | <a name="mh"></a><br /> ![Maharashtra*][mh_chart] <br />[Back](#table) |
+| <a name="mu"></a><br /> ![Mumbai*][mu_chart] <br />[Back](#table2) |
 | <a name="od"></a><br /> ![Odisha][od_chart] <br />[Back](#table) |
 | <a name="pb"></a><br /> ![Punjab][pb_chart] <br />[Back](#table) |
 | <a name="rj"></a><br /> ![Rajasthan][rj_chart] <br />[Back](#table) |
 | <a name="tn"></a><br /> ![Tamil Nadu][tn_chart] <br />[Back](#table) |
-| <a name="tg"></a><br /> ![Telangana][tg_chart] <br />[Back](#table) |
-| <a name="up"></a><br /> ![Uttar Pradesh][up_chart] <br />[Back](#table) |
-| <a name="uk"></a><br /> ![Uttarakhand][uk_chart] <br />[Back](#table) |
-| <a name="gj"></a><br /> ![Gujarat][gj_chart] <br />[Back](#table2) |
-| <a name="mu"></a><br /> ![Mumbai*][mu_chart] <br />[Back](#table2) |
 | <a name="tp"></a><br /> ![Tripura][tp_chart] <br />[Back](#table2) |
+| <a name="up"></a><br /> ![Uttar Pradesh][up_chart] <br />[Back](#table) |
 | <a name="wb"></a><br /> ![West Bengal][wb_chart] <br />[Back](#table2) |
 
 
