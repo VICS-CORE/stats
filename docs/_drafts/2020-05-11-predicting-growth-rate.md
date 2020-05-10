@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Predicting growth rate of total infections
+title: Neural Network's prediction of India's Covid-19 growth
 date:   2020-05-11
 comments: true
 
 ---
 
-Few days ago, we analysed the number of new cases per day and built a model to estimate the rate at which covid patients will grow in India. The following curve shows the number of new cases per day as of Apr 26th:
+On April 26th, we analysed the number of new cases per day and built a model to estimate the rate at which covid-19 cases will grow in India. The following curve shows the number of new cases per day as of Apr 26th:
 
 |Daily new cases as of Apr 26th|
 |:---:|
 |![New cases per day][daily_chart]|
 
-According to [this report][incubation], most COVID19 patients take about 5 to 12 days to develop symptoms. This is known as _incubation period_. That implies, if a lockdown happens today, the number of cases will start reducing after at least 5 days. Similarly, if a lockdown ends today and number of people contacting each other increases, it'll take at least 5 days for the reported number of cases to increase.
+According to [this report][incubation], most COVID19 patients take about 5 to 12 days to develop symptoms. This is known as _incubation period_. That implies, if a lockdown happens today, the number of cases will start reducing only after at least 5 days. Similarly, if a lockdown ends today and number of people contacting each other increases, it'll take at least 5 days for the reported number of cases to increase.
 
 Since lockdown in India started on Mar 24th, we chose to ignore the numbers till Apr 4th and trained the model using 21 days' data, i.e. Apr 5th to 26th. This would capture the behaviour of growth rate in a lockdown mode. So it should predict the growth accurately as long as the lockdown continues and 5-10 days thereafter.
 
