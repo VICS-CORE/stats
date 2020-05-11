@@ -31,17 +31,11 @@ As it can be seen, the growth rate stagnates at about 7%. We used this informati
 
 According to this model, the cumulative number of infections rises to 50,000 after first week of May, which has held true. It predicts the number touching 1,00,000 around May 15th. 
 
-We ran the algorithm again with training data till May 11th and here is the new curve. It agrees/disagrees with the earlier curve but the growth rate now stagnates around 8%.
+We ran the algorithm again with training data till May 11th and here is the new curve. It agrees with the earlier curve which is as expected as the lockdown continues.
 
 |Updated model|
 |:---:|
 |![Projected Growth Rate][may11_nn_chart]|
-
-As it can be seen, the growth rate stagnates at about 8%. We used this information to plot the cumulative number of cases by date.
-
-|May 11 update|
-|:---:|
-|![Projected cumulative cases][may11_total_chart]|
 
 
 
@@ -52,5 +46,4 @@ Since many parts of the country have been given relaxations after May 3rd, we ar
 [daily_chart]: {{ site.baseurl }}/assets/images/gr/daily_cases.png
 [nn_chart]: {{ site.baseurl }}/assets/images/gr/nn.png
 [total_chart]: {{ site.baseurl }}/assets/images/gr/total_cases.png
-[may11_total_chart]: {{ site.baseurl }}/assets/images/gr/total_cases_may11.png
 [may11_nn_chart]: {{ site.baseurl }}/assets/images/gr/nn_may11.png
