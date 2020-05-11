@@ -49,5 +49,4 @@ Since many parts of the country have been given relaxations after May 3rd, we ar
 [daily_chart]: {{ site.baseurl }}/assets/images/gr/daily_cases.png
 [nn_chart]: {{ site.baseurl }}/assets/images/gr/nn.png
 [total_chart]: {{ site.baseurl }}/assets/images/gr/total_cases.png
-[may11_total_chart]: {{ site.baseurl }}/assets/images/gr/total_cases_may11.png
 [may11_nn_chart]: {{ site.baseurl }}/assets/images/gr/nn_may11.png
