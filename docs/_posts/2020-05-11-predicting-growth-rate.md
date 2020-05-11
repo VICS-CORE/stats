@@ -3,6 +3,7 @@ layout: post
 title: Prediction of India's Covid-19 growth using a Neural Network (AI)
 date:   2020-05-11
 comments: true
+hero: /assets/images/gr/hero.jpg
 
 ---
 
