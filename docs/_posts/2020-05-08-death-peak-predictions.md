@@ -3,6 +3,7 @@ layout: post
 title: Verification of Peak Death dates by University of Washington
 date:   2020-05-08
 comments: true
+hero: /assets/images/uw/hero.jpg
 
 ---
 
