@@ -10,6 +10,6 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   {%- if page.hero -%}
-    <meta property="og:image" content="{{ page.hero }}" />
+    <meta property="og:image" content="{{ page.hero | absolute_url }}" />
   {%- endif -%}
 </head>
