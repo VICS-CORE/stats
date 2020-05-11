@@ -9,4 +9,7 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  {%- if page.hero -%}
+    <meta property="og:image" content="{{ page.hero }}" />
+  {%- endif -%}
 </head>
