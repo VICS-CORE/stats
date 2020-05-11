@@ -5,7 +5,9 @@ layout: default
 
   <header class="post-header">
     {%- if page.hero -%}
-      <div style="background-image: url('{{ page.hero }}'); width:100%; height:200px; object-fit:cover; background-size:cover; background-repeat:no-repeat; background-position:center; margin-bottom: 20px;"></div>
+      <div style="width:100%; margin-bottom:10px">
+          <img style="width:inherit; height:200px; object-fit:cover; object-position:center" src="{{ page.hero }}" />
+      </div>
     {%- endif -%}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
