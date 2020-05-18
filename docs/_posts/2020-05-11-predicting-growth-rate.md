@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Prediction of India's Covid-19 growth using a Neural Network (AI)
+title: Prediction of India's Covid19 growth using a Neural Network (AI)
 date:   2020-05-11
 comments: true
 hero: /assets/images/gr/hero.jpg
 
 ---
 
-On April 26th, we analysed the number of new cases per day and built a model to estimate the rate at which Covid-19 cases will grow in India.
+On April 26th, we analysed the number of new cases per day and built a model to estimate the rate at which Covid19 cases will grow in India.
 
 The following curve shows the number of new cases per day as of Apr 26th:
 
@@ -15,7 +15,7 @@ The following curve shows the number of new cases per day as of Apr 26th:
 |:---:|
 |![New cases per day][daily_chart]|
 
-According to [this report][incubation], most Covid-19 patients take about 5 to 12 days to develop symptoms. This is known as _incubation period_. This implies, if a lockdown happens today, the number of cases will start reducing only after at least 5 days. Lockdown 1.0 started in India on Mar 24th. We looked at the actual data and found that the rate of infection started coming down only after April 5th. It took 11 days to show results on ground.
+According to [this report][incubation], most Covid19 patients take about 5 to 12 days to develop symptoms. This is known as _incubation period_. This implies, if a lockdown happens today, the number of cases will start reducing only after at least 5 days. Lockdown 1.0 started in India on Mar 24th. We looked at the actual data and found that the rate of infection started coming down only after April 5th. It took 11 days to show results on ground.
 
 Neural Network is a Machine Learning algorithm. It looks at some data (called as training data), learns from it and then can predict what would happen after that. No prediction is perfect but this model has a scientific basis to it and has been found by scientists to be quite helpful in many cases. We picked this algorithm for curve fitting.
 

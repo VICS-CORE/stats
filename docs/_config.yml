@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: COVID19 Data Analysis
+title: Covid19 Data Analysis
 description: >- # this means to ignore newlines until "baseurl:"
   We're a bunch of volunteers from India who are analysing covid data to talk about things that we believe are important.
 

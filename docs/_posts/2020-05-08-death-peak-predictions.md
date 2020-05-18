@@ -9,9 +9,9 @@ hero: /assets/images/uw/hero.jpg
 
 A peak date is when the epidemic growth is at the maximum and after that the disease starts to subside. Hence it is of interest to know if a country or state has peaked. 
 
-Scientists use a popular model called SIR to predict how epidemics such as COVID-19 are spreading. The results of the prediction vary based on assumptions made to feed appropirate inputs to the model. Hence we found that there was a need to independently verify these predictions looking at the actual data recorded over time.
+Scientists use a popular model called SIR to predict how epidemics such as Covid19 are spreading. The results of the prediction vary based on assumptions made to feed appropirate inputs to the model. Hence we found that there was a need to independently verify these predictions looking at the actual data recorded over time.
 
-University of Washington through [it's website][hd_website]{:target="_blank"}, has been publishing its predicted COVID-19 peak death dates for select American and European Countries. The death curve is calculated on the daily reported deaths and it should lag the curve of infections reported by reason. We were curious to verify these dates and built a methodology to validate these predictions.  We found that the average lag between the two curves is around 7 days. The choice of countries choosen for their study is disappointing and does not include many countries that have not yet peaked. We have discared some small countries which fall below our threshold to make the predictions more meaningful.
+University of Washington through [it's website][hd_website]{:target="_blank"}, has been publishing its predicted Covid19 peak death dates for select American and European Countries. The death curve is calculated on the daily reported deaths and it should lag the curve of infections reported by reason. We were curious to verify these dates and built a methodology to validate these predictions.  We found that the average lag between the two curves is around 7 days. The choice of countries choosen for their study is disappointing and does not include many countries that have not yet peaked. We have discared some small countries which fall below our threshold to make the predictions more meaningful.
 
 ### Results
 

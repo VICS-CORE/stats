@@ -19,7 +19,7 @@ All these help save lives at the cost of economy and personal liberty.
 
 Setting aside politics where the ruling party is trying to justify all the actions that they are taking and the opposition trying to criticize every move and discredit the administration, let us analyse the data and how we are faring as a nation. In this series of articles we shall analyse each of the above points and try to find out how many lives have we saved.
 
-In his [opening remarks][who]{:target="_blank"} at the Mar 3 media briefing on Covid-19, WHO Director-General Dr Tedros Adhanom Ghebreyesus stated: _“Globally, about 3.4% of reported COVID-19 cases have died. By comparison, seasonal flu generally kills far fewer than 1% of those infected.”_
+In his [opening remarks][who]{:target="_blank"} at the Mar 3 media briefing on Covid19, WHO Director-General Dr Tedros Adhanom Ghebreyesus stated: _“Globally, about 3.4% of reported Covid19 cases have died. By comparison, seasonal flu generally kills far fewer than 1% of those infected.”_
 
 Without understanding details, a naive person would do the following arithmetic. In India, with an estimated population of 1,38,00,04,000, about 4,69,20,136 would die as a result of the pandemic. While the good news is that it will not cause our race to become extinct, the number is still many times higher than anything that has mass-killed citizens. The last known such deaths happened during the partition of India when about 20 lakh people died. The last time when 3% of World population was wiped out was during the WW-II. 
 

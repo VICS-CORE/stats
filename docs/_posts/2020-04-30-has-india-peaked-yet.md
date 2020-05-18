@@ -6,7 +6,7 @@ comments: true
 hero: /assets/images/02/hero.png
 
 ---
-On 26th April, Data Driven Innovation lab (DDI) at Singapore University of Technology and Design (SUTD) came out with an [implementation][sutd_website]{:target="_blank"} of the popular SIR model and tried to predict the COVID-19 peak dates for various countries including India. They predicted that India had already peaked on **20th April** and 97% of the expected cases would have been recovered by May 25th. We were curious to verify these dates and built a methodology to validate these predictions. 
+On 26th April, Data Driven Innovation lab (DDI) at Singapore University of Technology and Design (SUTD) came out with an [implementation][sutd_website]{:target="_blank"} of the popular SIR model and tried to predict the Covid19 peak dates for various countries including India. They predicted that India had already peaked on **20th April** and 97% of the expected cases would have been recovered by May 25th. We were curious to verify these dates and built a methodology to validate these predictions. 
 
 Our method has a limitation that it can confirm the peak only 3 days after the actual peak date. After running our calculations, we found that the predictions are incorrect for most of the countries that are still in the rising half of the epidemic, where new highs are still being reported. The details of our analysis are presented [here][paper] and our calculations and code is available in this [notebook][notebook]{:target="_blank"}. The Author has used the popular SIR model but the inputs to the model have to be given with due understanding of the underlying dynamics of the population to get a good prediction.
 
