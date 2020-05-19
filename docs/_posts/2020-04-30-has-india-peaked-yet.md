@@ -19,7 +19,7 @@ First Updated: May 5, 2020. We plan to update these results every few days. So p
 Last Updated: May 19, 2020. [Russia](#Russia1905) peaked on May 11th. However it's death chart has not yet peaked. We have added a second chart for the country. Other charts have not been updated as they have not moved categories.
 
 
-![India][in_chart]
+![India][in_chart3]
 
 Here is a comparison of peak dates as per [Singapore University's paper][sutd_paper] and our study.
 
@@ -132,6 +132,7 @@ Following is the list of charts for the countries mentioned above. For each coun
 [paper]: {{ site.baseurl }}/papers/cpec
 
 [in_chart]: {{ site.baseurl }}/assets/images/02/india.png
+[in_chart3]: {{ site.baseurl }}/assets/images/02/indiaindia.png
 [ae_chart]: {{ site.baseurl }}/assets/images/02/united_arab_emirates.png
 [ru_chart]: {{ site.baseurl }}/assets/images/02/russia.png
 [ru1905_chart]: {{ site.baseurl }}/assets/images/02/russia1905.png
