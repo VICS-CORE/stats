@@ -14,8 +14,9 @@ It is still not confirmed that India has peaked. The actual date does not appear
 
 ### Results
 
-Updated: May 5, 2020. We plan to update these results every few days. So please check back for any changes.
-Last Updated: May 19, 2020. Russia peaked on May 11th. However it's death chart has not yet peaked. We have added a second chart for the country.
+First Updated: May 5, 2020. We plan to update these results every few days. So please check back for any changes.
+
+Last Updated: May 19, 2020. [Russia](#Russia1905) peaked on May 11th. However it's death chart has not yet peaked. We have added a second chart for the country. Other charts have not been updated as they have not moved categories.
 
 
 ![India][in_chart]
