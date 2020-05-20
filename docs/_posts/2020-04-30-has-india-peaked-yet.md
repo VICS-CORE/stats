@@ -14,9 +14,12 @@ It is still not confirmed that India has peaked. The actual date does not appear
 
 ### Results
 
-Last Updated: May 5, 2020. We plan to update these results every few days. So please check back for any changes.
+First Updated: May 5, 2020. We plan to update these results every few days. So please check back for any changes.
 
-![India][in_chart]
+Last Updated: May 19, 2020. [Russia](#Russia1905) peaked on May 11th. However it's death chart has not yet peaked. We have added a second chart for the country. Other charts have not been updated as they have not moved categories.
+
+
+![India][in_chart3]
 
 Here is a comparison of peak dates as per [Singapore University's paper][sutd_paper] and our study.
 
@@ -87,6 +90,7 @@ Following is the list of charts for the countries mentioned above. For each coun
 | <a name="India"></a><br /> ![India][in_chart] <br />[Back](#table)|
 | <a name="UAE"></a><br /> ![United Arab Emirates][ae_chart] <br />[Back](#table) |
 | <a name="Russia"></a><br /> ![Russia][ru_chart] <br />[Back](#table) |
+| <a name="Russia1905"></a><br /> ![Russia1905][ru1905_chart] <br />[Back](#table) |
 | <a name="Peru"></a><br /> ![Peru][pe_chart] <br />[Back](#table) |
 | <a name="Mexico"></a><br /> ![Mexico][mx_chart] <br />[Back](#table) |
 | <a name="Pakistan"></a><br /> ![Pakistan][pk_chart] <br />[Back](#table) |
@@ -128,8 +132,10 @@ Following is the list of charts for the countries mentioned above. For each coun
 [paper]: {{ site.baseurl }}/papers/cpec
 
 [in_chart]: {{ site.baseurl }}/assets/images/02/india.png
+[in_chart3]: {{ site.baseurl }}/assets/images/02/indiaindia.png
 [ae_chart]: {{ site.baseurl }}/assets/images/02/united_arab_emirates.png
 [ru_chart]: {{ site.baseurl }}/assets/images/02/russia.png
+[ru1905_chart]: {{ site.baseurl }}/assets/images/02/russia1905.png
 [pe_chart]: {{ site.baseurl }}/assets/images/02/peru.png
 [mx_chart]: {{ site.baseurl }}/assets/images/02/mexico.png
 [pk_chart]: {{ site.baseurl }}/assets/images/02/pakistan.png
