@@ -14,7 +14,7 @@ list_title: Recent
         <h6>{{ post.date | date: "%b %d, %Y" }}</h6>
     </dt>
     <dd>
-        {{ post.excerpt }}
+        <p>{{ post.excerpt }}</p>
     </dd>
   {% endfor %}
 </dl>
