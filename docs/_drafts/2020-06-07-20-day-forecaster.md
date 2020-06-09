@@ -4,7 +4,7 @@ title: Training a 20 day forecaster
 date:   2020-06-04
 comments: true
 hero: /assets/images/forecasting/hero2.jpeg
-excerpt: The 10 day forecaster that we talked about in the previous post, allows us to predict next 10 days of Covid19 cases by looking at the past 20 day trend. However the look ahead window of 10 days is too small. Larger the number of days that we can predict, more is the time that we get to prepare for the future. Hence we extrapolated our neural net to learn from 40 day trends and predict next 20 days.
+excerpt: The 10 day forecaster that we talked about in the previous post, allows us to predict only the next 10 days of Covid19 new cases by looking at the past 20 day trend. Greater the number of days that we can predict, the more is the time that we get to prepare for the future. Hence we enhanced our neural net to learn from 40 day trends and predict next 20 days.
 
 ---
 
@@ -35,9 +35,9 @@ excerpt: The 10 day forecaster that we talked about in the previous post, allows
 
 Last updated: 4 Jun
 
-The 10 day forecaster that we talked about in the [previous post][prev_post], allows us to predict next 10 days of Covid19 cases by looking at the past 20 day trend. However the look ahead window of 10 days is too small. Larger the number of days that we can predict, more is the time that we get to prepare for the future. Hence we extrapolated our neural net to learn from 40 day trends and predict next 20 days. However that comes with a cost: the size of the network increases.
+The 10 day forecaster that we talked about in the [previous post][prev_post], allowed us to predict only the next 10 days of Covid19 new cases by looking at the past 20 day trend. The look ahead window of 10 days is too small and we started with it as we had limited computing resources. Greater the number of days that we can predict, the more is the time that we get to prepare for the future. Hence we enchanced our neural net to learn from 40 day trends and predict next 20 days. As of now we don not have sufficient data to build any longer predictors. However that comes with a cost: the size of the network increases.
 
-Ok, before we go into that, let's revisit the concept of neural nets. A neural net is a universal approximator with learnable parameters called _weights_. That means, a neural network can be used to approximate any curve of the form `y = f(x)` provided some data points lying on the curve are known. This data is used to identify the relationship between x and y by figuring out the correct values of _weights_. That process is called _training_ the network.
+Let's revisit the concept of neural nets. A neural net is a universal approximator with learnable parameters called _weights_. That means, a neural network can be used to approximate any curve of the form `y = f(x)` provided some data points lying on the curve are known. This data is used to identify the relationship between x and y by figuring out the correct values of _weights_. That process is called _training_ the network.
 
 When we try to predict larger trends by giving larger inputs and expecting larger outputs, the number of _weights_ in the network increases. In our case, when upgrading from a 10 day forecaster to a 20 day forecaster, the weights increase in number from 5170 to 27940. Consequently training time increases too. That means, it takes a lot more time to figure out the right combination of these _weights_ which will satisfy the relationship between x and y. 
 
@@ -51,7 +51,7 @@ However when we use the models to make predictions for a longer term (say a few 
 
 ![Peak comparison][comparepeak]
 
-There are a few more standard techniques in deep learning to improve these forecasters. However we don't have enough resources at the moment to perform multiple simultaneous computations. Also, in a few more days, enough data would be available to build a 30 day forecaster as well. Please let us know in case you can arrange for a GPU machine for training these nets.
+There are a few more standard techniques in deep learning to improve these forecasters. However we don't have enough resources at the moment to perform multiple simultaneous computations. Also, in a few more days, enough data would be available to build a 30 day forecaster as well. Please let us know in case you can arrange for a GPU enhanced computer for training these nets.
 
 [chart]: {{ site.baseurl }}/assets/images/forecasting/chart4020.png
 [comparefit]: {{ site.baseurl }}/assets/images/forecasting/comparefit.png
