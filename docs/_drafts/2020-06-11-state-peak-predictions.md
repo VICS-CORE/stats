@@ -9,7 +9,7 @@ hero: /assets/images/states/hero.png
 
 Currently we are seeing that Mumbai, Delhi, Chennai and Ahmedabad together account for 2/3d of the cases. But the same trend would not continue for long. When all of this is over, UP would end up being the state that would report the maximum number of daily cases.
 
-A peak date is when the epidemic growth is at the maximum and after that the disease starts to subside. Hence it is of interest to know if a country or state has peaked. In our previous post [4020model], we described how we trained a 20 day forecaster. Feeding back the predicted data as actual data in a recursive loop we can extend the prediction even further. We did exactly this and extended the forecast till ... We found that these 7 states would end up reporting more than 10K cases daily. 
+A peak date is when the epidemic growth is at the maximum and after that the disease starts to subside. Hence it is of interest to know if a country or state has peaked. In our previous post [4020model], we described how we trained a 20 day forecaster using Deep learning and a. Feeding back the predicted data as actual data in a recursive loop we can extend the prediction even further. We did exactly this and extended the forecast till ... We found that these 7 states would end up reporting more than 10K cases daily. 
 
 
 Then these 7 states would report more than 5K cases daily.
