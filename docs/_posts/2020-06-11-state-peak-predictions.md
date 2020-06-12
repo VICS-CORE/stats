@@ -41,7 +41,7 @@ We plan to update these results every few days. So please check back for any cha
 <a name="table"></a>
 The following table shows a list of states along with their peak dates, peak daily cases and cumulative cases.
 
-State | Peak date | Peak daily cases| Cummulative cases
+State | Peak date | Peak daily cases| Cumulative cases
  --- | ---
 Andaman & Nicobar Islands | Oct 01 | 69 | 3545
 Andhra Pradesh | Sep 20 | 14311 | 697062
