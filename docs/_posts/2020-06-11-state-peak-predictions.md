@@ -92,4 +92,4 @@ The graphs for a few states were wrongly predicted by our RNN. The secondary wav
 [5kstates]: {{ site.baseurl }}/assets/images/statesforecast/5kstates.png
 [2kstates]: {{ site.baseurl }}/assets/images/statesforecast/2kstates.png
 [aggstates]: {{ site.baseurl }}/assets/images/statesforecast/aggstates.png
-[bars]: {{ site.baseurl }}/assets/images/statesforecast/bars.png
+[bars]: {{ site.baseurl }}/assets/images/statesforecast/bars2.png
