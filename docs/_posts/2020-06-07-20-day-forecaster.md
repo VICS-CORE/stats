@@ -15,9 +15,9 @@ excerpt: The 10 day forecaster that we talked about in the previous post, allows
 | Jun 7  | 9339  | 9971 | 632 |
 | Jun 8  | 9933  | 9983 | 50 |
 | Jun 9  | 10390  | 9987 | -403 |
-| Jun 10 | 10820  |  |  |
-| Jun 11 | 11231 |  |  |
-| Jun 12 | 11622 |  |  |
+| Jun 10 | 10820  | 9985 | -835 |
+| Jun 11 | 11231 | 9996 | -1235 |
+| Jun 12 | 11622 | 10956 | -666 |
 | Jun 13 | 11675  |  |  |
 | Jun 14 | 11937  |  |  |
 | Jun 15 | 12509  |  |  |
@@ -33,7 +33,7 @@ excerpt: The 10 day forecaster that we talked about in the previous post, allows
 
 ![Predictions][chart]
 
-Last updated: 4 Jun
+Predictions last updated: 4 Jun
 
 The 10 day forecaster that we talked about in the [previous post][prev_post], allowed us to predict only the next 10 days of Covid19 new cases by looking at the past 20 day trend. The look ahead window of 10 days is too small and we started with it as we had limited computing resources. Greater the number of days that we can predict, the more is the time that we get to prepare for the future. Hence we enchanced our neural net to learn from 40 day trends and predict next 20 days. As of now we don not have sufficient data to build any longer predictors. However that comes with a cost: the size of the network increases.
 

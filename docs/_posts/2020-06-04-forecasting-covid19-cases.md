@@ -11,17 +11,17 @@ excerpt: Most researchers are using a compartmentalised model such as SIR or one
 | Date | Predicted daily cases | Actual daily cases | Difference |
 |:---:|:---:|:---:|:---:|
 | Jun 5  | 8818  | 9851 | 1033 |
-| Jun 6  | 9373  |  |  |
-| Jun 7  | 9532  |  |  |
-| Jun 8  | 9706  |  |  |
-| Jun 9  | 9605  |  |  |
-| Jun 10 | 9896  |  |  |
-| Jun 11 | 10154 |  |  |
-| Jun 12 | 10091 |  |  |
+| Jun 6  | 9373  | 9887 | 514 |
+| Jun 7  | 9532  | 9971 | 439 |
+| Jun 8  | 9706  | 9983 | 277 |
+| Jun 9  | 9605  | 9987 | 382 |
+| Jun 10 | 9896  | 9985 | 89 |
+| Jun 11 | 10154 | 9996 | -158 |
+| Jun 12 | 10091 | 10956 | 865 |
 | Jun 13 | 9599  |  |  |
 | Jun 14 | 9650  |  |  |
 
-Last updated: 4 Jun
+Predictions last updated: 4 Jun
 
 Most researchers are using a compartmentalised model such as [SIR][sir_wiki]{:target="_blank"} or one of its variants to predict the Covid19 future, because the epidemiologists use them to describe epidemic growth. These work well when there is unhindered growth of the disease and when there is a uniform policy and pattern in the population under study. It worked well with small populations in European countries. We felt that it was too much of a simplification to a heterogenous population like India where the policy and implementations are changing across states and with time. Our case was more along the lines of the US where these models have proved to be inadequate. Further the number of people infected in India was too low and data too little to reliably use such models in the early stages when we started this work. Luckily we have deep neural networks which are generalized AI learning algorithms that can learn directly from the data and build a model on its own. We are using this to understand the pattern of confirmed cases across the world.
 
