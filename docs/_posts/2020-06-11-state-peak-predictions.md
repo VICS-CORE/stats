@@ -31,6 +31,8 @@ Peak daily new cases: 93,414
 
 Cumulative confirmed cases: 1,14,46,050
 
+A more textured graph can be drawn once we have district wise granular data.
+
 Our calculations and code is available in this [notebook][notebook]{:target="_blank"}.
 
 ### Results
@@ -82,7 +84,7 @@ States in the order they peak, with peak daily cases listed as bars:
 ![Bar chart][bars]
 
 
-The graphs for a few states were wrongly predicted by our RNN. The secondary wave has to be ignored for now till we refit the model with more training data.
+The graphs for a few states were predicted incorrectly by our RNN because of insufficient data. The secondary wave has to be ignored for now till we refit the model with more training data.
 
 
 [notebook]: https://nbviewer.jupyter.org/github/VICS-CORE/stats/blob/master/11_YudistirNet.ipynb
