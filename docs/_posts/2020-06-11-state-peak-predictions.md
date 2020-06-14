@@ -45,40 +45,40 @@ The following table shows a list of states along with their peak dates, peak dai
 
 State | Peak date | Peak daily cases| Cumulative cases
  --- | ---
-Andaman & Nicobar Islands | Oct 01 | 69 | 3545
-Andhra Pradesh | Sep 20 | 14311 | 697062
-Arunachal Pradesh | Nov 08 | 3558 | 228398
-Asaam | Aug 09 | 4998 | 272570
-Bihar | Oct 01 | 14604 | 821905
-Chandigarh | Dec 27 | 53 | 2338
-Chhattisgarh | Sep 09 | 3625 | 179202
-Delhi | Jun 24 | 2488 | 141890
-Dadra & Nagar Haveli and Daman & Diu | Nov 24 | 106 | 4297
-Goa | Jun 19 | 70 | 4748
-Gujarat | Aug 29 | 9059 | 473340
-Himachal Pradesh | Sep 27 | 766 | 58292
-Haryana | Aug 04 | 4067 | 195165
-Jharkhand | Aug 22 | 5037 | 232344
-Jammu & Kashmir | Aug 09 | 2151 | 110561
-Karnataka | Nov 18 | 14325 | 579448
-Kerala | Oct 01 | 5124 | 236213
-Ladakh | Dec 27 | 32 | 3460
-Maharashtra | Jul 19 | 16796 | 1541915
-Meghalaya | Oct 01 | 497 | 20659
-Manipur | Aug 09 | 293 | 30338
-Madhya Pradesh | Oct 21 | 8837 | 719312
-Mizoram | Aug 02 | 100 | 7121
-Nagaland | Oct 07 | 262 | 13674
-Odisha | Oct 22 | 5719 | 417555
-Punjab | Sep 20 | 5257 | 230506
-Puducherry | Aug 22 | 233 | 10117
-Rajasthan | Nov 24 | 9412 | 839299
-Telangana | Oct 27 | 4731 | 336058
-Tamil Nadu | Jul 17 | 11386 | 629946
-Tripura | Dec 22 | 535 | 17910
-Uttar Pradesh | Oct 01 | 27400 | 1798338
-Uttarakhand | Dec 24 | 1065 | 29827
-West Bengal | Aug 31 | 8665 | 558697
+Andaman & Nicobar Islands | Oct 01 | 69 | 3,545
+Andhra Pradesh | Sep 20 | 14,311 | 6,97,062
+Arunachal Pradesh | Nov 08 | 3,558 | 2,28,398
+Asaam | Aug 09 | 4,998 | 2,72,570
+Bihar | Oct 01 | 14,604 | 8,21,905
+Chandigarh | Dec 27 | 53 | 2,338
+Chhattisgarh | Sep 09 | 3,625 | 1,79,202
+Delhi | Jun 24 | 2,488 | 1,41,890
+Dadra & Nagar Haveli and Daman & Diu | Nov 24 | 106 | 4,297
+Goa | Jun 19 | 70 | 4,748
+Gujarat | Aug 29 | 9,059 | 4,73,340
+Himachal Pradesh | Sep 27 | 766 | 58,292
+Haryana | Aug 04 | 4,067 | 1,95,165
+Jharkhand | Aug 22 | 5,037 | 2,32,344
+Jammu & Kashmir | Aug 09 | 2,151 | 1,10,561
+Karnataka | Nov 18 | 14,325 | 5,79,448
+Kerala | Oct 01 | 5,124 | 2,36,213
+Ladakh | Dec 27 | 32 | 3,460
+Maharashtra | Jul 19 | 16,796 | 15,41,915
+Meghalaya | Oct 01 | 497 | 20,659
+Manipur | Aug 09 | 293 | 30,338
+Madhya Pradesh | Oct 21 | 8,837 | 7,19,312
+Mizoram | Aug 02 | 100 | 7,121
+Nagaland | Oct 07 | 262 | 13,674
+Odisha | Oct 22 | 5,719 | 4,17,555
+Punjab | Sep 20 | 5,257 | 2,30,506
+Puducherry | Aug 22 | 233 | 10,117
+Rajasthan | Nov 24 | 9,412 | 8,39,299
+Telangana | Oct 27 | 4,731 | 3,36,058
+Tamil Nadu | Jul 17 | 11,386 | 6,29,946
+Tripura | Dec 22 | 535 | 17,910
+Uttar Pradesh | Oct 01 | 27,400 | 17,98,338
+Uttarakhand | Dec 24 | 1,065 | 29,827
+West Bengal | Aug 31 | 8,665 | 5,58,697
 
 States in the order they peak, with peak daily cases listed as bars:
 ![Bar chart][bars]
