@@ -5,7 +5,7 @@ permalink: /about/
 
 ---
 
-We're a bunch of volunteers from India, who are analysing covid data to talk about things that we believe are important.
+We're a bunch of volunteers from India, who are analysing covid data to talk about things that we believe are important. We're using deep learning, neural networks and machine learning to look for insights in covid data.
 
 You can find the source code for all our work on [GitHub][vics-gh]{:target="_blank"}.
 

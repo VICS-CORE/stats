@@ -20,7 +20,7 @@
 
 title: Covid19 Data Analysis
 description: >- # this means to ignore newlines until "baseurl:"
-  We're a bunch of volunteers from India who are analysing covid data to talk about things that we believe are important.
+  Deep learning and other machine learning techniques to predict covid cases in India.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://indiacovid.seva.ml/" # the base hostname & protocol for your site, e.g. http://example.com
