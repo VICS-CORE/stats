@@ -28,6 +28,7 @@ url: "https://indiacovid.seva.ml/" # the base hostname & protocol for your site,
 github_username:  vics-core
 facebook_username: indiacovidseva
 twitter_username: indiacovidseva
+linkedin_username: indiacovidseva
 
 # Build settings
 theme: minima
