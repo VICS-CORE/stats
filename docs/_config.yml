@@ -26,7 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://indiacovid.seva.ml/" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  vics-core
-facebook_username: covidanalysis
+facebook_username: indiacovidseva
+twitter_username: indiacovidseva
+linkedin_username: indiacovidseva
 
 # Build settings
 theme: minima
