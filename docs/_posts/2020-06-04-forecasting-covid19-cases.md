@@ -18,8 +18,8 @@ excerpt: Most researchers are using a compartmentalised model such as SIR or one
 | Jun 10 | 9896  | 9985 | 89 |
 | Jun 11 | 10154 | 9996 | -158 |
 | Jun 12 | 10091 | 10956 | 865 |
-| Jun 13 | 9599  |  |  |
-| Jun 14 | 9650  |  |  |
+| Jun 13 | 9599  | 11458 | 1859 |
+| Jun 14 | 9650  | 11929 | 2279 |
 
 Predictions last updated: 4 Jun
 
