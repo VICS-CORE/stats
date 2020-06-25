@@ -8,6 +8,8 @@ excerpt: The 10 day forecaster that we talked about in the previous post, allows
 
 ---
 
+For latest predictions, please visit our [tracker][tracker].
+
 | Date | Predicted daily cases | Actual daily cases | Difference |
 |:---:|:---:|:---:|:---:|
 | Jun 5  | 8868  | 9851 | 983 |
@@ -24,16 +26,18 @@ excerpt: The 10 day forecaster that we talked about in the previous post, allows
 | Jun 16 | 13060  | 10667 | -2393 |
 | Jun 17 | 13213  | 10974 | -2239 |
 | Jun 18 | 13456  | 12881 | -575 |
-| Jun 19 | 13566  |  |  |
-| Jun 20 | 14060  |  |  |
-| Jun 21 | 14364 |  |  |
-| Jun 22 | 14431 |  |  |
-| Jun 23 | 14835  |  |  |
-| Jun 24 | 15384  |  |  |
+| Jun 19 | 13566  | 13586 | 20 |
+| Jun 20 | 14060  | 14516 | 456 |
+| Jun 21 | 14364 | 15413 | 1049 |
+| Jun 22 | 14431 | 14821 | 390 |
+| Jun 23 | 14835  | 14933 | 98 |
+| Jun 24 | 15384  | 15968 | 584 |
 
 ![Predictions][chart]
 
 Predictions last updated: 4 Jun
+
+Data source: [OWID][owid]{:target="_blank"}
 
 The 10 day forecaster that we talked about in the [previous post][prev_post], allowed us to predict only the next 10 days of Covid19 new cases by looking at the past 20 day trend. The look ahead window of 10 days is too small and we started with it as we had limited computing resources. Greater the number of days that we can predict, the more is the time that we get to prepare for the future. Hence we enchanced our neural net to learn from 40 day trends and predict next 20 days. As of now we don not have sufficient data to build any longer predictors. However that comes with a cost: the size of the network increases.
 
@@ -57,3 +61,5 @@ There are a few more standard techniques in deep learning to improve these forec
 [comparefit]: {{ site.baseurl }}/assets/images/forecasting/comparefit.png
 [comparepeak]: {{ site.baseurl }}/assets/images/forecasting/comparepeak.png
 [prev_post]: {{ site.baseurl }}/2020/06/04/forecasting-covid19-cases.html
+[tracker]: https://seva.ml/?utm_source=sevaml&utm_medium=Website&campaign=post&utm_content=4020
+[owid]: https://ourworldindata.org/covid-cases?country=~IND

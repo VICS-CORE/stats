@@ -8,6 +8,8 @@ excerpt: Most researchers are using a compartmentalised model such as SIR or one
 
 ---
 
+For latest predictions, please visit our [tracker][tracker].
+
 | Date | Predicted daily cases | Actual daily cases | Difference |
 |:---:|:---:|:---:|:---:|
 | Jun 5  | 8818  | 9851 | 1033 |
@@ -40,3 +42,4 @@ Training these models is a computationally intensive task and requires GPUs. Our
 [yud]: https://arxiv.org/abs/2005.04809
 [notebook]: https://nbviewer.jupyter.org/github/VICS-CORE/stats/blob/master/11_YudistirNet.ipynb
 [owid]: https://github.com/owid/covid-19-data/tree/master/public/data
+[tracker]: https://seva.ml/?utm_source=sevaml&utm_medium=Website&campaign=post&utm_content=2010

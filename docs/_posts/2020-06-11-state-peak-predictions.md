@@ -4,8 +4,11 @@ title: Can you guess which state will end up having the most Covid-19 cases?
 date:   2020-06-11
 comments: true
 hero: /assets/images/statesforecast/hero.jpg
+excerpt: Currently we are seeing that Mumbai, Delhi, Chennai and Ahmedabad together account for 2/3rd of the cases. But the same trend would not continue for long. When all of this is over, UP would end up being the state that would report the maximum number of daily cases.
 
 ---
+
+For latest predictions, please visit our [tracker][tracker].
 
 Currently we are seeing that Mumbai, Delhi, Chennai and Ahmedabad together account for 2/3rd of the cases. But the same trend would not continue for long. When all of this is over, UP would end up being the state that would report the maximum number of daily cases.
 
@@ -95,3 +98,4 @@ The graphs for a few states were predicted incorrectly by our RNN because of ins
 [2kstates]: {{ site.baseurl }}/assets/images/statesforecast/2kstates.png
 [aggstates]: {{ site.baseurl }}/assets/images/statesforecast/aggstates.png
 [bars]: {{ site.baseurl }}/assets/images/statesforecast/bars2.png
+[tracker]: https://seva.ml/?utm_source=sevaml&utm_medium=Website&campaign=post&utm_content=states
