@@ -12,10 +12,10 @@ You can find the source code for all our work on [GitHub][vics-gh]{:target="_bla
 Contact us on [Facebook][fb_page]{:target="_blank"}.
 
 #### Acknowledgements:
-##### [Department of CSE, NITK][cse_page]{:target="_blank"}.
+#### [Department of CSE, NITK][cse_page]{:target="_blank"}.
 For providing us GPU access since June 16th 2020
 
-##### [Google Corporation][g_page]{:target="_blank"}.
+#### [Google Corporation][g_page]{:target="_blank"}.
 For Providing us compute credits on their GCP with their Covid-19 Grant
 
 [vics-gh]: https://github.com/vics-core/stats
