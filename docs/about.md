@@ -11,6 +11,7 @@ You can find the source code for all our work on [GitHub][vics-gh]{:target="_bla
 
 Contact us on [Facebook][fb_page]{:target="_blank"}.
 
+
 ### Acknowledgements:
 #### [Department of CSE, NITK][cse_page]{:target="_blank"}
 For providing us GPU access since June 16th 2020
@@ -21,4 +22,4 @@ For Providing us compute credits on their GCP with their Covid-19 Grant since Ju
 [vics-gh]: https://github.com/vics-core/stats
 [fb_page]: https://www.facebook.com/indiacovidseva
 [cse_page]: https://cse.nitk.ac.in/
-[g_page]: https://cloud.google.com/covid19-healthcare?hl=en
+[g_page]: https://cloud.google.com/covid19-healthcare
