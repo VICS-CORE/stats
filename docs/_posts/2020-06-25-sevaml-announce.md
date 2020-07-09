@@ -13,7 +13,7 @@ Now this pandemic is called "novel" because we have never seen something like th
 
 The work we have done is difficult. Else many people would have already done it. But we think it is imporant because it helps in decision making and preparing to battle with the pandemic. Just like a map helps us to drive, a forecast helps us to plan our lives. This forecast will change on a daily basis just like the weather. We try to update our models and predictions as we get more recent data. Most professional research group have not made their algorithms public but we are open source and request for comments.
 
-If you like what you see please share this among your friends. Covid is here to stay and we want to help you plan your lives better. The print media would not cover a voluntary effort such as ours. We do not have deep pockets to propagate paid news. So we are relying on you and the power of social media to make this research reach the common man. Share if you care.
+If you like what you see please share this among your friends. Covid is here to stay and we want to help you plan your lives better. The print media would not cover a voluntary effort such as ours. So we are relying on you and the power of social media to make this research reach the common man. Share if you care.
 
 [https://seva.ml][sevaml]
 
