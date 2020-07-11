@@ -3,7 +3,7 @@ layout: post
 title: Insights into our prediction models
 date:   2020-07-11
 comments: true
-hero: /assets/images/sevaml/faq.jpeg
+hero: /assets/images/sevaml/faq.jpg
 
 ---
 
@@ -43,7 +43,7 @@ We update our predictions daily. Every day we have some new true data and these 
 We are not here in a competition to foretell the future accurately. The pandemic has created Chaos and we are trying to make sense of the situation just like everybody else and find if there is some determinism in the Chaos. Our research is far from complete and we are evolving and trying to find more correlations on what makes the curve bend and when. But even with this changing prediction, we think that there is great value in the predictions and we can plan ahead in the future. Unforeseen events such as the lockdowns, the migrant crisis, the ‘black lives matter protests’ and such keep changing the course of future and we believe that our approach is best set to reflect all these changes. We are placing our faith on math and science instead of tarot cards and dice. Neural Networks have been shown in the past to accurately describe highly non-linear variables and we think that they are our best bet to describe the current pandemic.
 
 #### How should we use your predictions?
-We think our predictions are very similar to weather predictions. You should look at the short term look ahead and plan your actions according to that. There will be a long term forecast that will keep changing and will keep getting better as they approach nearer. Hence we have designed this interactive app so that you can keep checking back.
+We think our predictions are very similar to weather predictions. You should look at the short term look ahead and plan your actions according to that. There will be a long term forecast that will keep changing and will keep getting better as they approach nearer. Hence we have designed this interactive [app][sevaml]{:target="_blank"} so that you can keep checking back. Please subscribe to our facebook and tweeter accounts for periodic updates.
 
 
 [sevaml]: https://seva.ml/?utm_source=sevaml&utm_medium=Website&utm_campaign=Third%20Push
