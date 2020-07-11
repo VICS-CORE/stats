@@ -9,7 +9,7 @@ hero: /assets/images/sevaml/faq.jpg
 
 We believe in socially responsible research. We are answering some questions related to our work so that the technical community can understand what we are doing and come up with ways to help.
 
-#### Why is Covid-19 case prediction Important?
+#### Why is Covid-19 case prediction important?
 Prediction is important as it will help the administration to plan for necessary resources and in turn save lives. For eg. if the administration has a plane full of ventilators, they should be able to decide which place they have to send it to right now so that maximum lives can be saved. Individuals will also be able to plan their lives around the pandemic and hence a public and transparent communication of the results is the need of the hour which we are doing with [our interactive App][sevaml]{:target="_blank"}
 
 #### Are you using SIR for your modelling?
@@ -43,7 +43,7 @@ We update our predictions daily. Every day we have some new true data and these 
 We are not here in a competition to foretell the future accurately. The pandemic has created Chaos and we are trying to make sense of the situation just like everybody else and find if there is some determinism in the Chaos. Our research is far from complete and we are evolving and trying to find more correlations on what makes the curve bend and when. But even with this changing prediction, we think that there is great value in the predictions and we can plan ahead in the future. Unforeseen events such as the lockdowns, the migrant crisis, the ‘black lives matter protests’ and such keep changing the course of future and we believe that our approach is best set to reflect all these changes. We are placing our faith on math and science instead of tarot cards and dice. Neural Networks have been shown in the past to accurately describe highly non-linear variables and we think that they are our best bet to describe the current pandemic.
 
 #### How should we use your predictions?
-We think our predictions are very similar to weather predictions. You should look at the short term look ahead and plan your actions according to that. There will be a long term forecast that will keep changing and will keep getting better as they approach nearer. Hence we have designed this interactive [app][sevaml]{:target="_blank"} so that you can keep checking back. Please subscribe to our facebook and tweeter accounts for periodic updates.
+We think our predictions are very similar to weather predictions. You should look at the short term look ahead and plan your actions according to that. There will be a long term forecast that will keep changing and will keep getting better as they approach nearer. Hence we have designed this interactive [app][sevaml]{:target="_blank"} so that you can keep checking back. Please subscribe to our Facebook and twitter accounts for periodic updates.
 
 
 [sevaml]: https://seva.ml/?utm_source=sevaml&utm_medium=Website&utm_campaign=Third%20Push
