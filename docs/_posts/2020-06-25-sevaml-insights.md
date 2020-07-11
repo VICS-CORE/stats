@@ -10,7 +10,7 @@ hero: /assets/images/sevaml/faq.jpeg
 We believe in socially responsible research. We are answering some questions related to our work so that the technical community can understand what we are doing and come up with ways to help.
 
 #### Why is Covid-19 case prediction Important?
-Prediction is important as it will help the administration to plan for necessary resources and in turn save lives. For eg. if the administration has a plane full of ventilators, they should be able to decide which place they have to send it to right now so that maximum lives can be saved. Individuals will also be able to plan their lives around the pandemic and hence a public and transparent communication of the results is the need of the hour which we are doing with  [sevaml]
+Prediction is important as it will help the administration to plan for necessary resources and in turn save lives. For eg. if the administration has a plane full of ventilators, they should be able to decide which place they have to send it to right now so that maximum lives can be saved. Individuals will also be able to plan their lives around the pandemic and hence a public and transparent communication of the results is the need of the hour which we are doing with [our interactive App][sevaml]{:target="_blank"}
 
 #### Are you using SIR for your modelling?
 Compartmentalized models like SIR and it’s variants were built for infectious diseases like common flu that progressed unchecked and reached certain limiting levels. They expected 60-80 percent of the population to get infected until a herd immunity is reached. What we are seeing in most European countries that are coming out of the pandemic, is that only 3 to 6 percent of their population will probably end up getting infected in the first wave. Hence they are failing to describe what is happening on the ground. Further there is confusion and disagreement among the researchers on assumptions and applying of the parameters. Hence two peers using the same model are predicting outcomes factors apart. This is because we don’t have the mathematics developed to accurately describe the effects of restrictions such as a lockdown or it’s intensity yet. Further these restrictions are continuously changing and social response is also varying across communities. These work well with homogenous populations such as small European countries but we need higher granularity to describe a heterogeneous populations such as India. We have already seen in the case of the US which is now again detecting record new cases after an initial prediction of a peak in April.
@@ -22,13 +22,13 @@ Since Mathematical models had the problems mentioned above, we decided to just l
 We are using a RNN (Recursive Neural Network) for making the predictions. We take true data from all the countries that have seen the pandemic for more than 90 days, (more than 160 as of now) and divide it into two buckets in the ratio 7:3. The first bucket is used to train the network and the second bucket is used to validate the results. If the error is converging during the training process then it means the network is learning. If the validation accuracy is good then we know that the network has learnt well. Once we evaluate the accuracy of these two steps as good, the model is in essence an universal approximator.  Now the data for India is the test data which is never shown to the network during the training and validation phase. If the back test of the predictions for India is above certain accuracy, then we consider further evaluation of the model.
 
 #### Where are you sourcing your data from?
-We are currently finding daily updates from [owid] and [covid] sites. We are in the process of adding more data from more sites if we get reliable and open data. The accuracy of our results depends on the quality of the data and with the granularity that we need across all the countries of the world. Finding such sources is always a challenge.
+We are currently finding daily updates from [Owid][owid]{:target="_blank"} and [Covid][covid]{:target="_blank"} sites. We are in the process of adding more data from more sites if we get reliable and open data. The accuracy of our results depends on the quality of the data and with the granularity that we need across all the countries of the world. Finding such sources is always a challenge.
 
 #### What are the inputs and outputs to your model?
 Initially we built an univariate model where the daily confirmed cases was the only variable dealt with. But now we are considering CARD (Confirmed, Active, Recovered and Death) and are building multivariate models where we can add many correlated variables as inputs. There is a single output for the multivariate model and we have to build a multitasking model to get all the relevant outputs.
 
 #### What is your technical set up?
-We are running python code in Jupyter notebooks. Our code is open source and hosted on GitHub. We are using PyTorch API for the RNN and Neptune as our experiment management system. We are using Google Cloud for computation. The web App is modified from the [covid] code base which is built on React Framework. Our blog is hosted on GitHub Pages using Jekyll.
+We are running python code in Jupyter notebooks. Our code is open source and hosted on GitHub. We are using PyTorch API for the RNN and Neptune as our experiment management system. We are using Google Cloud for computation. The web App is modified from the [Covid][covid]{:target="_blank"} code base which is built on React Framework. Our blog is hosted on GitHub Pages using Jekyll.
 
 #### Why don’t you try time series prediction?
 Time series prediction works well with cyclical variables. For eg, consumer appliances are sold during holiday and festive seasons. So even if we are not aware of the cause, we can see the patterns in the sales numbers every year. There is no precedent to this pandemic and we do not have sufficient data to detect patterns for this Novel virus.
@@ -45,11 +45,7 @@ We are not here in a competition to foretell the future accurately. The pandemic
 #### How should we use your predictions?
 We think our predictions are very similar to weather predictions. You should look at the short term look ahead and plan your actions according to that. There will be a long term forecast that will keep changing and will keep getting better as they approach nearer. Hence we have designed this interactive app so that you can keep checking back.
 
-[https://seva.ml][sevaml]
-[https://covid19india.orgl][covid]
-[https://ourworldindata.org][owid]
-
 
 [sevaml]: https://seva.ml/?utm_source=sevaml&utm_medium=Website&utm_campaign=Third%20Push
-[covid][https://covid19india.orgl]
-[owid][https://ourworldindata.org]
+[covid]: https://covid19india.org
+[owid]: https://ourworldindata.org
