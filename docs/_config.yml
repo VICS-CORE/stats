@@ -22,8 +22,8 @@ title: Covid19 Data Analysis
 description: >- # this means to ignore newlines until "baseurl:"
   Deep learning and other machine learning techniques to predict covid cases in India.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vics-core.github.io/stats/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/stats" # the subpath of your site, e.g. /blog
+url: "https://vics-core.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  vics-core
 facebook_username: indiacovidseva
